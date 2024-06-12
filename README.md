@@ -71,6 +71,10 @@ Custom exceptions are used throughout the application to handle errors. These ex
 - Kafka
 - Zookeeper
 
+## Further Improvemenst
+- Adding role based authentication and authorsization
+- Connecting to open banking API 
+- adding additional features like OAuth
 
 ## Contributing
 
