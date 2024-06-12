@@ -57,11 +57,6 @@ Listens to transaction events and sends email notifications using Spring's Simpl
 
 Kafka is used for asynchronous communication between services. Events such as user creation, user deletion, and transaction status updates are communicated via Kafka queues.
 
-### Event Flow
-- **User Created**: Published by User Service, consumed by Wallet Service.
-- **User Deleted**: Published by User Service, consumed by Wallet Service.
-- **Transaction Status**: Published by Transaction Service, consumed by Notification Service.
-
 ## Exception Handling
 
 Custom exceptions are used throughout the application to handle errors. These exceptions are propagated to the user with meaningful messages.
@@ -84,6 +79,5 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 
 This project is licensed under the MIT License.
-
 
 Feel free to customize this template further to suit your project's needs.
